@@ -4,3 +4,10 @@ git add <filename> - to add a file
 git commit -m <message> - to commit changes and print a message. 
 git rm --cache <filename> - to remove file from staged
 git restore - to restore files 
+git remote set-url origin <url to the repo with a personal access token>
+example: git remote set-url origin https://<token>@github.com/Vanshikachaudhary/Git-Github-demo.git
+
+git pull origin main --rebase
+git push origin main 
+
+THESE COMMANDS WILL HELP PUSH AND PULL CODE FROM LOCAL TO GITHUB. 
